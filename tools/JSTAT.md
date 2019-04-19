@@ -10,3 +10,14 @@ Bytest | class字节大小
 Unloaded| 未加载class的数量
 Bytes | 未加载class的字节大小
 Time | 加载时间
+
+> -compiler pid（输出JIT编译过的方法数量耗时等）
+
+字段 | 说明
+--- | ---
+Compiled | 编译数量
+Failed | 编译失败数量
+Invalid | 无效数量
+Time | 编译耗时
+FailedType | 失败类型
+FailedMethod| 失败方法的全限定名
