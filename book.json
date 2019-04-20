@@ -16,16 +16,7 @@
         }
     },
     "plugins": [
-        "-sharing",
-        "splitter",
-        "expandable-chapters-small",
-        "anchors",
-        "github",
-        "github-buttons",
-        "donate",
-        "sharing-plus",
-        "anchor-navigation-ex",
-        "favicon"
+        "mermaid"
     ],
     "pluginsConfig": {
         "github": {
@@ -34,7 +25,7 @@
         "github-buttons": {
             "buttons": [{
                 "user": "emituofokoog",
-                "repo": "glory",
+                "repo": "jvm-note",
                 "type": "star",
                 "size": "small",
                 "count": true
