@@ -15,3 +15,5 @@
     * [100CPU问题定位](tools/100CPU.md)
 * [计划之外的笔记](unscheduled.md)
     * [Tomcat常见的几种部署方式](unscheduled.md)
+    * [算法](unscheduled/algorithm.md)
+    * [linux常用命令](unscheduled/linux命令.md)
