@@ -1,3 +1,5 @@
+
+
 # Linux 运行jar包命令如下
 
 `java -jar shareniu.jar`
@@ -6,13 +8,11 @@
 
 `java -jar shareniu.jar &`
 
-"&"代表在后台运行。
-特定：当前ssh窗口不被锁定，但是当窗口关闭时，程序中止运行。继续改进，如何让窗口关闭时，程序仍然运行？
+"&"代表在后台运行。特定：当前ssh窗口不被锁定，但是当窗口关闭时，程序中止运行。继续改进，如何让窗口关闭时，程序仍然运行？
 
 `nohup java -jar shareniu.jar &`
 
-nohup 意思是不挂断运行命令,当账户退出或终端关闭时,程序仍然运行
-当用 nohup 命令执行作业时，缺省情况下该作业的所有输出被重定向到nohup.out的文件中，除非另外指定了输出文件。
+nohup 意思是不挂断运行命令,当账户退出或终端关闭时,程序仍然运行。当用 nohup 命令执行作业时，缺省情况下该作业的所有输出被重定向到nohup.out的文件中，除非另外指定了输出文件。
 
 `nohup java -jar shareniu.jar >temp.txt &`
 
@@ -23,3 +23,25 @@ command >out.file是将command的输出重定向到out.file文件，即输出内
 `jobs`
 那么就会列出所有后台执行的作业，并且每个作业前面都有个编号。
 如果想将某个作业调回前台控制，只需要 fg + 编号即可。
+
+---
+1.新建目录，git init
+
+2.关联远程，git remote add origin url(git地址)
+
+3.用户名以及邮箱设置，git config --global user.name "xxxxxx"(这里是gitlab左下角的用户名，被gitlab提示坑了，连不上gitlab基本就是这里出错)
+
+git config --global user.email "xxxx@xx.xx"
+
+4.提交到暂存区，git add
+
+5.提交到本地，git commit -m "xxx"
+
+6.git push -u origin master
+
+
+
+[mac kindle app打不开书白屏解决方案](https://www.cnblogs.com/elyw/p/10682910.html)
+
+
+
