@@ -15,5 +15,4 @@
 
 GCViewer
 
-
-
+![GCViewer](../images/gc-viewer.png)

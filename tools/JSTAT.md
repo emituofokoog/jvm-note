@@ -14,7 +14,7 @@ JVM统计监测工具(JVM Statistics Monitoring Tool)，主要用于监测并显
 -gcold | 统计老年代GC状况
 -gcoldcapacity | 年老代行为统计(同-gcoldcapacity)，主要关注使用到的最大、最小空间
 -gcpermcapacity | 显示永久代使用到的最大、最小空间(-gcmetacapacity)
--printcompilation | 显示已经被JIT编译的方法
+-printcompilation | 显示已经被JIT编译的方法 
 
 
 

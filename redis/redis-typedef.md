@@ -121,7 +121,7 @@ RAW|长度太大无法用long类型表示的整数、长度太长无法用long d
 
 ## 3. Hash对象
 
-```
+```C
 //字典
 typedef struct dict {
 	//类型特定函数 
