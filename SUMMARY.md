@@ -1,7 +1,13 @@
 # JVM笔记目录
 
-* [简介](README.md)
-* [JVM监控工具](JVM_TOOLS.md)
+* [说明](README.md)
+* [Java内存模型与内存溢出异常](JMM/说明.md)
+		* [程序计数器](JMM/程序计数器(Program-Counter-Register).md)
+		* [虚拟机栈](JMM/虚拟机栈(VM-Stack).md)
+		* [本地方法栈](JMM/本地方法栈(Native-Method-Stack).md)
+		* [Java堆](堆(Heap).md)
+		* [方法区](JMM/方法区(Method-Area).md)
+* [JVM监控工具](toola/JVM_TOOLS.md)
     * [jps](tools/JPS.md)
     * [jstat](tools/JSTAT.md)
     * [jinfo](tools/JINFO.md)

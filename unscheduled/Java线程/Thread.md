@@ -86,7 +86,7 @@
 
 
 
-1. sleep方法
+1. **sleep方法**
 
 2.1、Thread类中的sleep方法
 
@@ -116,7 +116,9 @@ TimeUnit.DAYS.sleep(1)；
 
 Thread.sleep(1000*60*24*8)；
 
-1. yield方法
+
+
+1. **yield方法**
 
 3.1、Thread类中的yield方法
 
